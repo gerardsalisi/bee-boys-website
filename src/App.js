@@ -13,7 +13,7 @@ import Footer from 'components/Footer';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/bee-boys-website/">
       <div className="App">
         <nav className="header">
           <div className="header-name">
