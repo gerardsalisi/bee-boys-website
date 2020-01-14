@@ -1,0 +1,104 @@
+section{
+    height: 100vh;
+}
+
+.landing-section{
+    background-color: #F6F5F0;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #404E44;
+}
+
+.slogan{
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+}
+
+button {
+    padding: 15px;
+    font-family: 'Karla';
+    text-transform: uppercase;
+    border: none;
+    background-color: #E7BC73;
+    cursor: pointer;
+    outline: none;
+}
+.about-section{
+    color: #404E44;
+    background-color: #E7BC73;
+    padding: 0px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image-container > img {
+    margin: 25px;
+}
+
+.image-container > img:first-child {
+    margin-left: 0px;
+}
+
+.description-container > h2{
+    font-family: 'Rubik';
+    font-weight: 500;
+    margin: 20px 0;
+    font-size: 2.5em;
+}
+
+.description-container > p{
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.team-section{
+    padding: 0px 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.team-section > h1{
+    font-size: 3.5em;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.team-image-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+}
+
+.headshot {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    max-width: 175px;
+}
+
+.column > h3 {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.column > p {
+    font-weight: 300;
+}
