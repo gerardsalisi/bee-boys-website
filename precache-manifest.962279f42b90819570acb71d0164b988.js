@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "871b3c72f488d961195ce66fca02847c",
+    "revision": "2ea4fbfe6363fa50ac1aec1486b258ab",
     "url": "/bee-boys-website/index.html"
   },
   {
-    "revision": "cfa926b9fe764de53c22",
+    "revision": "cfcce242d53fdc7891ed",
     "url": "/bee-boys-website/static/css/main.1e116d58.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bee-boys-website/static/js/2.007ac077.chunk.js.LICENSE"
   },
   {
-    "revision": "cfa926b9fe764de53c22",
-    "url": "/bee-boys-website/static/js/main.fef197e6.chunk.js"
+    "revision": "cfcce242d53fdc7891ed",
+    "url": "/bee-boys-website/static/js/main.b6f4086c.chunk.js"
   },
   {
     "revision": "3bdd16ef5e0b442fff1c",
