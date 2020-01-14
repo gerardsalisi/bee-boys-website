@@ -8,7 +8,8 @@ import {
 } from "react-router-dom";
 
 import Home from 'components/Home';
-import Blog from 'components/Blog';
+import BlogLanding from 'components/Blog';
+import Footer from 'components/Footer';
 
 function App() {
   return (
@@ -23,21 +24,23 @@ function App() {
               <NavLink to="/" className="link" activeClassName="active" exact={true}>Home</NavLink>
             </div>
             <div>
-              <NavLink to="/blog" className="link" activeClassName="active">Updates</NavLink>
+              <NavLink to="/blog" className="link" activeClassName="active">Weekly Updates</NavLink>
             </div>
           </div>
         </nav>
 
         <Switch>
           <Route path="/blog">
-            <Blog />
+            <BlogLanding />
           </Route>
           <Route path="/">
             <Home />
           </Route>
         </Switch>
       </div>
+      <Footer></Footer>
     </Router>
+    
   );
 }
 

@@ -1,8 +1,58 @@
+.updates-header{
+    padding-top: 15%;
+}
 .blog-list-container{
-    background-color: #F6F5F0;
-    padding-top: 100px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     color: #404E44;
+    padding: 0 15%;
+    margin-top: 15%;
+    height: initial;
+}
+
+
+.blog-summary{
+    margin: 15px 0;
+}
+.header-title{
+    font-weight: 300;
+    text-decoration: underline;
+    margin-bottom: 5%;
+}
+.summary-blog-title{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.summary-subheader{
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.read-more{
+    color: #C75F64;
+    margin-top: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blog-container{
+    margin-top: 10%;
+}
+
+.blog-title{
+    text-align: center;
+    font-weight: 300;
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+.blog-date{
+    text-align: center;
+    font-weight: 300;
+    color: #C75F64;
+}
+
+.content{
+    font-weight: 300;
+    margin-bottom: 10px;
 }

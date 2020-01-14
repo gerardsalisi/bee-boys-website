@@ -1,0 +1,23 @@
+.footer-container{
+    text-align: center;
+    margin: 5% 0;
+    font-weight: 300;
+    font-family: 'Karla';
+    color: #404E44;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-link{
+    padding: 0 20px;
+    color: #C75F64;
+}
+
+.footer-menu{
+    margin-bottom: 20px;
+}
+
+.footer-updated{
+    font-weight: 300;
+}
