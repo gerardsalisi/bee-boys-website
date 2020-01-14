@@ -1,11 +1,8 @@
-.footer-container{
+footer{
     text-align: center;
     margin: 5% 0;
     font-weight: 300;
-    font-family: 'Karla';
     color: #404E44;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 

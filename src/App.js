@@ -14,33 +14,30 @@ import Footer from 'components/Footer';
 function App() {
   return (
     <Router basename="/bee-boys-website/">
-      <div className="App">
-        <nav className="header">
-          <div className="header-name">
-            <h1>bee boys</h1>
+      <div className="container">
+        <header>
+          <div>
+            <NavLink to="/" className="link nav-title" activeClassName="header-active" exact={true}>bee boys</NavLink>
           </div>
-          <div className="nav">
-            <div>
-              <NavLink to="/" className="link" activeClassName="active" exact={true}>Home</NavLink>
-            </div>
-            <div>
-              <NavLink to="/blog" className="link" activeClassName="active">Weekly Updates</NavLink>
-            </div>
-          </div>
-        </nav>
-
-        <Switch>
-          <Route path="/blog">
-            <BlogLanding />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+          <nav>
+            <NavLink to="/" className="link" activeClassName="active" exact={true}>Home</NavLink>
+            <NavLink to="/blog" className="link" activeClassName="active">Weekly Updates</NavLink>
+          </nav>
+        </header>
+        <main>
+          <Switch>
+            <Route path="/blog">
+              <BlogLanding />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </main>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
     </Router>
-    
+
   );
 }
 

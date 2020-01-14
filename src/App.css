@@ -1,36 +1,27 @@
-.App {
-  width: 100%;
-  height: 100%;
-  color: #404E44;
-  font-family: 'Karla';
-  font-weight: 700;
-
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.header{
+
+header{
   width: 100%;
-  height: 150px;
-  padding: 30px 70px;
-  box-sizing: border-box;
+  height: 15vh;
+  padding: 20px 70px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  top: 0;
-}
-
-h1{
-  font-family: 'Rubik';
-  font-size: 2.2em;
-}
-.header-name{
-  display:flex;
   align-items: center;
 }
-.nav{
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Rubik';
+}
+nav{
   display: flex;
   vertical-align: middle;
   align-items: center;
 }
-.nav > div{
+nav > a{
   margin: 30px;
 }
 
@@ -42,4 +33,10 @@ h1{
 
 .active{
   text-decoration: underline;
+}
+
+.nav-title{
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Rubik';
 }

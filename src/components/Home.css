@@ -1,20 +1,9 @@
-section{
-    height: 100vh;
-    padding: 0px 15%;
-}
-
 .landing-section{
-    background-color: #F6F5F0;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #404E44;
-}
-
-.slogan{
-    font-size: 3em;
-    font-weight: 400;
-    text-align: center;
+    flex-direction: column;
+    height: 85vh;
 }
 
 button {
@@ -26,65 +15,67 @@ button {
     cursor: pointer;
     outline: none;
 }
+
 .about-section{
-    color: #404E44;
     background-color: #E7BC73;
+    min-height: 80vh;
+}
+
+.inner-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
+    padding: 7vh 10vw;
 }
 
 .image-container{
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: 5vh 0;
 }
 
-.image-container > img {
-    margin: 25px;
+.image {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 auto; 
+}
+.image:nth-child(2) {
+    margin: 0 5vw;
 }
 
-.image-container > img:first-child {
-    margin-left: 0px;
+img{
+    max-width: 100%;
 }
 
 .description-container > h2{
-    font-family: 'Rubik';
-    font-weight: 500;
     margin: 20px 0;
-    font-size: 2.5em;
 }
 
 .description-container > p{
     font-weight: 400;
-    font-size: 1.1em;
     line-height: 2em;
 }
 
-.team-section{
-   
+.section-title{
+    margin-bottom: 25px;
+}
+
+.team-members{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-.team-section > h1{
-    font-size: 3.5em;
-    font-weight: 500;
-    margin-bottom: 50px;
-}
-
-.team-image-container{
-    display: flex;
-    justify-content: space-between;
-}
-
-.column{
+.member-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 300px;
+    max-width: 250px;
+}
+
+.member-container:not(:first-child):not(:last-child) {
+    margin: 2vh 2vw;
 }
 
 .headshot {
@@ -93,11 +84,11 @@ button {
     max-width: 175px;
 }
 
-.column > h3 {
+.member-container > h3 {
     text-align: center;
     margin: 15px 0px;
 }
 
-.column > p {
+.member-container > p {
     font-weight: 300;
 }
