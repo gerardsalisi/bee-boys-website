@@ -1,18 +1,26 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Home.css';
 
-function Section(props) {
+const scrollToRef = (ref) => window.scrollTo({
+    top: ref.current.offsetHeight,
+    behavior: 'smooth'
+});
+
+function Home(props) {
+    const myRef = useRef(null)
+    const executeScroll = () => scrollToRef(myRef)
+
     return (
         <div className="container">
             <section className="landing-section">
                 <h1 className="slogan-text">
                     insert slogan here
                 </h1>
-                <button>
+                <button onClick={executeScroll}>
                     Learn More
                 </button>
             </section>
-            <section className="about-section">
+            <section className="about-section" ref={myRef}>
                 <div className="inner-container">
                     <div className="image-container">
                         <div className="image">
@@ -68,4 +76,4 @@ function Section(props) {
     );
 }
 
-export default Section;
+export default Home;
