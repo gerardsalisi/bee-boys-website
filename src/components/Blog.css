@@ -6,7 +6,6 @@
 }
 .blog-entry{
     display: flex;
-    justify-content: center;
 }
 
 .entry-number{

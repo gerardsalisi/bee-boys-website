@@ -1,10 +1,14 @@
 import React, { useRef } from 'react';
 import './Home.css';
 
-const scrollToRef = (ref) => window.scrollTo({
-    top: ref.current.offsetHeight,
-    behavior: 'smooth'
-});
+const scrollToRef = (ref) => {
+    const totalOffset = ref.current.offsetTop + ref.current.offsetParent.offsetTop;
+
+    return window.scrollTo({
+        top: totalOffset,
+        behavior: 'smooth'
+    })
+};
 
 function Home(props) {
     const myRef = useRef(null)

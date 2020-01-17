@@ -8,7 +8,7 @@
 header{
   width: 100%;
   height: 15vh;
-  padding: 20px 70px;
+  padding: 5vh 5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +23,7 @@ nav{
   align-items: center;
 }
 nav > a{
-  margin: 30px;
+  margin: 5vw;
 }
 main{
   overflow: hidden;

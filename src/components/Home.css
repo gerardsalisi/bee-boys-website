@@ -18,7 +18,7 @@ button {
 
 .about-section{
     background-color: #E7BC73;
-    min-height: 80vh;
+    min-height: 85vh;
 }
 
 .inner-container{
@@ -58,6 +58,7 @@ img{
 
 .section-title{
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .team-members{
