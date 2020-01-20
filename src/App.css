@@ -22,7 +22,7 @@ nav{
   vertical-align: middle;
   align-items: center;
 }
-nav > a{
+nav > a:not(:last-child){
   margin: 5vw;
 }
 main{

@@ -5,7 +5,9 @@ footer{
     color: #404E44;
     width: 100%;
 }
-
+footer > h5{
+    margin-bottom: 5px;
+}
 .footer-link{
     padding: 0 20px;
     color: #C75F64;

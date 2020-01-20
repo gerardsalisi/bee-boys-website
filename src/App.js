@@ -52,7 +52,7 @@ function App() {
       <div className="container">
         <header>
           <div>
-            <NavLink to="/" className="link nav-title" activeClassName="header-active" exact={true}>bee boys</NavLink>
+            <NavLink to="/" className="link nav-title" activeClassName="header-active" exact={true}>PolliMate</NavLink>
           </div>
           <nav>
             <NavLink to="/" className="link" activeClassName="active" exact={true}>Home</NavLink>

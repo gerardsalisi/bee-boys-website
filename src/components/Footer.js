@@ -9,8 +9,8 @@ function Footer(props) {
                 <NavLink to="/" className="link footer-link" activeClassName="active" exact={true}>Home</NavLink>
                 <NavLink to="/blog" className="link footer-link" activeClassName="active">Weekly Updates</NavLink>
             </ul>
-            <h5>made with ♥</h5>
-            <h6 className="footer-updated">last updated 01/14/2020</h6>
+            <h5>made with React</h5>
+            <h6 className="footer-updated">last updated 01/20/2020</h6>
         </footer>
         
     );

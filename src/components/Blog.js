@@ -92,6 +92,7 @@ function Blog(props) {
     let { index } = useParams();
 
     let blog = { ...summary.blogs[index] };
+    console.log(blog);
     blog.content = blog.content.split('\\n');
 
     return (

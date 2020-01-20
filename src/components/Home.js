@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import './Home.css';
+import drone from '../images/qav-250.png';
+import teamPhoto from '../images/team-photo.jpg';
 
 const scrollToRef = (ref) => {
     const totalOffset = ref.current.offsetTop + ref.current.offsetParent.offsetTop;
@@ -18,60 +20,55 @@ function Home(props) {
         <div className="container">
             <section className="landing-section">
                 <h1 className="slogan-text">
-                    insert slogan here
+                    the alternative to animal-mediated pollination
                 </h1>
                 <button onClick={executeScroll}>
                     Learn More
                 </button>
             </section>
             <section className="about-section" ref={myRef}>
-                <div className="inner-container">
-                    <div className="image-container">
-                        <div className="image">
-                            <img src="https://via.placeholder.com/250" />
-                        </div>
-                        <div className="image">
-                            <img src="https://via.placeholder.com/250" />
-                        </div>
-                        <div className="image">
-                            <img src="https://via.placeholder.com/250" />
-                        </div>
-                    </div>
-                    <div className="description-container">
-                        <h2>
-                            Artifical Pollination
+                <div className="description-container">
+                    <h2>
+                        Honey bees support about $20 billion worth of production in the US alone through animal-mediated pollination.  However, their populations have been on the decline since 2006 due to pesticides, disease, and climate change and could cause a cascading effect regarding crop production.
                         </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut neque orci, facilisis eget ultricies at, eleifend a leo. Duis ullamcorper nisl arcu, ac aliquam arcu suscipit eu. Proin non congue leo. Suspendisse ullamcorper libero in ligula euismod, a eleifend ex laoreet. Donec mollis, tellus nec luctus fermentum, urna libero scelerisque ipsum, quis porta ante leo vitae lacus. Cras consequat luctus mattis. Nam orci ligula, mattis et nulla vitae, convallis condimentum leo. Sed at elementum risus
+                    <p>
+                        Our team aims to provide an alternative solution to animal-mediated pollination with Pollimate. Pollimate is a scalable and autonomous aerial solution that is capable of artificially pollinating crops by leveraging computer vision to localize the drone and accurately pollinate an individual flower.
                         </p>
-                    </div>
+                </div>
+                <div className="image-container">
+                    <img className="image" src={drone} alt="The QAV250 Drone" />
                 </div>
             </section>
             <section className="team-section">
                 <div className="inner-container">
                     <h2 className="section-title">meet the team</h2>
-                    <div className="team-members">
-                        <div className="member-container">
-                            <img className="headshot" src="https://via.placeholder.com/175" />
-                            <h3>Brynn Davis</h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut neque orci, facilisis eget ultricies at, eleifend a leo. Duis ullamcorper nisl arcu, ac aliquam arcu suscipit eu.</p>
+                    <div className="content-container">
+                       
+                        <div className="team-photo-container">
+                            <img src={teamPhoto} alt="The Team" />
                         </div>
-                        <div className="member-container">
-                            <img className="headshot" src="https://via.placeholder.com/175" />
-                            <h3>Jordan Hu</h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut neque orci, facilisis eget ultricies at, eleifend a leo. Duis ullamcorper nisl arcu, ac aliquam arcu suscipit eu.</p>
-                        </div>
-                        <div className="member-container">
-                            <img className="headshot" src="https://via.placeholder.com/175" />
-                            <h3>Gerard Salisi</h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut neque orci, facilisis eget ultricies at, eleifend a leo. Duis ullamcorper nisl arcu, ac aliquam arcu suscipit eu.</p>
-                        </div>
-                        <div className="member-container">
-                            <img className="headshot" src="https://via.placeholder.com/175" />
-                            <h3>Justin Wang</h3>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut neque orci, facilisis eget ultricies at, eleifend a leo. Duis ullamcorper nisl arcu, ac aliquam arcu suscipit eu.</p>
+                        <div className="team-members">
+                            <small>*from left to right</small>
+                            <div className="member-container">
+                                <h4>Gerard Salisi</h4>
+                                <p>Mechanical and Software Support</p>
+                            </div>
+                            <div className="member-container">
+                                <h4>Brynn Davis</h4>
+                                <p>Mechanical Lead and Electrical Lead</p>
+                            </div>
+                            <div className="member-container">
+                                <h4>Justin Wang</h4>
+                                <p>Software Development Lead</p>
+                            </div>
+                            <div className="member-container">
+                                <h4>Jordan Hu</h4>
+                                <p>Project Manager/Electrical and Software Support</p>
+                            </div>
+                            
                         </div>
                     </div>
+
                 </div>
             </section>
 
