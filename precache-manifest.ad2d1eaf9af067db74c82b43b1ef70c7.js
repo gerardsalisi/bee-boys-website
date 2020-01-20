@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a859591ce43607a449e4845065e56436",
+    "revision": "9f1697958a8bef07b07d771786376967",
     "url": "/bee-boys-website/index.html"
   },
   {
-    "revision": "43b63d338cb54807e680",
-    "url": "/bee-boys-website/static/css/main.8a9e577c.chunk.css"
+    "revision": "4647cc2662f76f804acc",
+    "url": "/bee-boys-website/static/css/main.89d3a9b2.chunk.css"
   },
   {
     "revision": "6a7940182e7e7c082a39",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bee-boys-website/static/js/2.9be23a03.chunk.js.LICENSE"
   },
   {
-    "revision": "43b63d338cb54807e680",
-    "url": "/bee-boys-website/static/js/main.18b028d7.chunk.js"
+    "revision": "4647cc2662f76f804acc",
+    "url": "/bee-boys-website/static/js/main.c8053278.chunk.js"
   },
   {
     "revision": "3bdd16ef5e0b442fff1c",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bee-boys-website/static/media/01-19-20.eaff2681.md"
   },
   {
-    "revision": "c392ae8848b63524db05d11f32068f7f",
-    "url": "/bee-boys-website/static/media/qav-250.c392ae88.png"
+    "revision": "026202f9c452f0eb7ff5600d64e9be1b",
+    "url": "/bee-boys-website/static/media/bee.026202f9.png"
   },
   {
     "revision": "a675402eef86de58e8e9e71563bf3aa9",
