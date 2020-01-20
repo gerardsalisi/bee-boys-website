@@ -1,8 +1,8 @@
 {
-  "name": "bee-boys",
+  "name": "pollimate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gerardsalisi.github.io/bee-boys-website/",
+  "homepage": "http://gerardsalisi.github.io/pollimate-website/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

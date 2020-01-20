@@ -48,7 +48,7 @@ const bounceTransition = {
 
 function App() {
   return (
-    <Router basename="/bee-boys-website/">
+    <Router basename="/pollimate-website/">
       <div className="container">
         <header>
           <div>
