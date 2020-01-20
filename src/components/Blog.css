@@ -47,6 +47,15 @@
     line-height: 1.5em;
 }
 
+.blog-post > div > p > img{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
+
 .blog-title{
     text-align: center;
     font-weight: 300;
