@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
     useRouteMatch,
     NavLink,
@@ -9,6 +9,11 @@ import { spring, AnimatedSwitch } from 'react-router-transition';
 
 import './Blog.css';
 import summary from '../blogs/summary.json';
+import { Markdown } from 'react-showdown';
+// import * as blogs from '../blogs';
+
+const importAll = (r) => r.keys().map(r);
+const markdownFiles = importAll(require.context('../blogs', false, /\.md$/))
 
 function mapStyles(styles) {
     return {
@@ -90,19 +95,25 @@ function BlogLanding(props) {
 
 function Blog(props) {
     let { index } = useParams();
+    const [posts, setPosts] = useState('');
+    useEffect(() => {
+        const fetchBlogs = async ()=> {
+            const blogs = await Promise.all(markdownFiles.map((file) => fetch(file).then((res) => res.text())))
+            .catch((err) => console.error(err));
 
-    let blog = { ...summary.blogs[index] };
-    console.log(blog);
-    blog.content = blog.content.split('\\n');
+            setPosts(blogs);
+        }
+        fetchBlogs();
+    }, [])
+
+    let blog = summary.blogs[index];
 
     return (
-        <section className="inner-container">
+        <section className="inner-container blog-post">
             <h3 className="blog-date">{blog.date}</h3>
             <h1 className="blog-title">{`0${+index + 1}. ${blog.title}`}</h1>
             {
-                blog.content.map(c => {
-                    return <p className="content">{c}</p>;
-                })
+                <Markdown markup={posts[index]}></Markdown>
             }
         </section>
     )

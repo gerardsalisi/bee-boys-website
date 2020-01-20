@@ -37,8 +37,14 @@
     text-decoration: underline;
 }
 
-.blog-container{
-    margin-top: 10%;
+.blog-post{
+    padding: 5vh 20vw;
+}
+
+.blog-post > div >  p{
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    line-height: 1.5em;
 }
 
 .blog-title{
@@ -51,9 +57,4 @@
     text-align: center;
     font-weight: 300;
     color: #C75F64;
-}
-
-.content{
-    font-weight: 300;
-    margin-bottom: 10px;
 }
