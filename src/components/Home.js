@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './Home.css';
-import drone from '../images/qav-250.png';
+import bee from '../images/bee.png';
 import teamPhoto from '../images/team-photo.jpg';
 
 const scrollToRef = (ref) => {
@@ -36,7 +36,7 @@ function Home(props) {
                         </p>
                 </div>
                 <div className="image-container">
-                    <img className="image" src={drone} alt="The QAV250 Drone" />
+                    <img className="image" src={bee} alt="Bee" />
                 </div>
             </section>
             <section className="team-section">
@@ -48,7 +48,7 @@ function Home(props) {
                             <img src={teamPhoto} alt="The Team" />
                         </div>
                         <div className="team-members">
-                            <small>*from left to right</small>
+                            
                             <div className="member-container">
                                 <h4>Gerard Salisi</h4>
                                 <p>Mechanical and Software Support</p>
@@ -65,7 +65,7 @@ function Home(props) {
                                 <h4>Jordan Hu</h4>
                                 <p>Project Manager/Electrical and Software Support</p>
                             </div>
-                            
+                            <small>*from left to right</small>
                         </div>
                     </div>
 

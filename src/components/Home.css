@@ -33,7 +33,7 @@ button {
     justify-content: center;
     flex-direction: column;
     background-color: #E7BC73;
-    width: 50%;
+    width: 70%;
     padding: 5vh 5vw;
     font-size: 20px;
 }
@@ -50,14 +50,15 @@ button {
 
 .image-container{
     display: flex;
-    align-items: center;
-    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 30%;
     padding: 5vh 2vw;
 }
 
 .image{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 300px;
+    max-height: 300px;
     height: auto;
     width: 100%;
 }
@@ -84,7 +85,7 @@ button {
 }
 
 .team-members{
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: flex-end;
     width: 50%;
@@ -93,7 +94,6 @@ button {
 }
 
 .team-members > small{
-    margin-bottom: 1vh;
     font-size: 0.9em;
 }
 
@@ -101,7 +101,6 @@ button {
     display: flex;
     flex-direction: column;
 }
-
 
 .member-container > h4{
     margin-bottom: 0.5vh;
@@ -114,26 +113,7 @@ button {
     font-size: 1em;
 }
 
-/* .member-container:not(:first-child):not(:last-child) {
-    margin: 2vh 2vw;
-} */
-/* 
-.headshot {
-    -webkit-clip-path: circle(50% at 50% 50%);
-    clip-path: circle(50% at 50% 50%);
-    max-width: 175px;
-} */
-
-/* .member-container > h3 {
-    text-align: center;
-    margin: 15px 0px;
-}
-
-.member-container > p {
-    font-weight: 300;
-} */
-
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 766px) {
     .description-container{
         font-size: 16px;
     }
