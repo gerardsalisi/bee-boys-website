@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/bee-boys-website/static/css/main.89d3a9b2.chunk.css",
-    "main.js": "/bee-boys-website/static/js/main.c8053278.chunk.js",
-    "main.js.map": "/bee-boys-website/static/js/main.c8053278.chunk.js.map",
-    "runtime-main.js": "/bee-boys-website/static/js/runtime-main.d3cec463.js",
-    "runtime-main.js.map": "/bee-boys-website/static/js/runtime-main.d3cec463.js.map",
-    "static/js/2.9be23a03.chunk.js": "/bee-boys-website/static/js/2.9be23a03.chunk.js",
-    "static/js/2.9be23a03.chunk.js.map": "/bee-boys-website/static/js/2.9be23a03.chunk.js.map",
-    "index.html": "/bee-boys-website/index.html",
-    "precache-manifest.ad2d1eaf9af067db74c82b43b1ef70c7.js": "/bee-boys-website/precache-manifest.ad2d1eaf9af067db74c82b43b1ef70c7.js",
-    "service-worker.js": "/bee-boys-website/service-worker.js",
-    "static/css/main.89d3a9b2.chunk.css.map": "/bee-boys-website/static/css/main.89d3a9b2.chunk.css.map",
-    "static/js/2.9be23a03.chunk.js.LICENSE": "/bee-boys-website/static/js/2.9be23a03.chunk.js.LICENSE",
-    "static/media/01-12-20.md": "/bee-boys-website/static/media/01-12-20.f47245af.md",
-    "static/media/01-19-20.md": "/bee-boys-website/static/media/01-19-20.eaff2681.md",
-    "static/media/bee.png": "/bee-boys-website/static/media/bee.026202f9.png",
-    "static/media/team-photo.jpg": "/bee-boys-website/static/media/team-photo.a675402e.jpg"
+    "main.css": "/pollimate-website/static/css/main.89d3a9b2.chunk.css",
+    "main.js": "/pollimate-website/static/js/main.34ecfb03.chunk.js",
+    "main.js.map": "/pollimate-website/static/js/main.34ecfb03.chunk.js.map",
+    "runtime-main.js": "/pollimate-website/static/js/runtime-main.263fb788.js",
+    "runtime-main.js.map": "/pollimate-website/static/js/runtime-main.263fb788.js.map",
+    "static/js/2.82bec024.chunk.js": "/pollimate-website/static/js/2.82bec024.chunk.js",
+    "static/js/2.82bec024.chunk.js.map": "/pollimate-website/static/js/2.82bec024.chunk.js.map",
+    "index.html": "/pollimate-website/index.html",
+    "precache-manifest.6f2c08ae69110379e6e14e18512f9716.js": "/pollimate-website/precache-manifest.6f2c08ae69110379e6e14e18512f9716.js",
+    "service-worker.js": "/pollimate-website/service-worker.js",
+    "static/css/main.89d3a9b2.chunk.css.map": "/pollimate-website/static/css/main.89d3a9b2.chunk.css.map",
+    "static/js/2.82bec024.chunk.js.LICENSE": "/pollimate-website/static/js/2.82bec024.chunk.js.LICENSE",
+    "static/media/01-12-20.md": "/pollimate-website/static/media/01-12-20.f47245af.md",
+    "static/media/01-19-20.md": "/pollimate-website/static/media/01-19-20.eaff2681.md",
+    "static/media/bee.png": "/pollimate-website/static/media/bee.026202f9.png",
+    "static/media/team-photo.jpg": "/pollimate-website/static/media/team-photo.a675402e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3cec463.js",
-    "static/js/2.9be23a03.chunk.js",
+    "static/js/runtime-main.263fb788.js",
+    "static/js/2.82bec024.chunk.js",
     "static/css/main.89d3a9b2.chunk.css",
-    "static/js/main.c8053278.chunk.js"
+    "static/js/main.34ecfb03.chunk.js"
   ]
 }
