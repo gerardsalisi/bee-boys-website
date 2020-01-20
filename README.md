@@ -24,4 +24,29 @@ To deploy your changes run:
 
 **Hard refresh the page if your changes do not show after running the command above**
 
+# How to Create a New Blog Post
+
+1. Go to 
+
+### `src/blogs/summary.json`
+
+2. Add a new summary for the blog post to the file with the same structure as below, 
+
+``` 
+ {
+        "title": "Back to School",
+        "date": "01/12/20",
+        "source": "01-12-20.md"
+ },
+```
+
+3. Create a new markdown file with the same filename as you wrote in the summary.json file. 
+
+4. Type up the blog in the markdown file; here is a [markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) if you are not familiar with markdowns.
+
+5. Run an `npm run deploy` to deploy your changes.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
