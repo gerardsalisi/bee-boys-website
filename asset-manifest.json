@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/bee-boys-website/static/css/main.2504a16f.chunk.css",
-    "main.js": "/bee-boys-website/static/js/main.9055835d.chunk.js",
-    "main.js.map": "/bee-boys-website/static/js/main.9055835d.chunk.js.map",
+    "main.css": "/bee-boys-website/static/css/main.ad5d45f4.chunk.css",
+    "main.js": "/bee-boys-website/static/js/main.ef0829dc.chunk.js",
+    "main.js.map": "/bee-boys-website/static/js/main.ef0829dc.chunk.js.map",
     "runtime-main.js": "/bee-boys-website/static/js/runtime-main.d3cec463.js",
     "runtime-main.js.map": "/bee-boys-website/static/js/runtime-main.d3cec463.js.map",
-    "static/js/2.92247145.chunk.js": "/bee-boys-website/static/js/2.92247145.chunk.js",
-    "static/js/2.92247145.chunk.js.map": "/bee-boys-website/static/js/2.92247145.chunk.js.map",
+    "static/js/2.e363b525.chunk.js": "/bee-boys-website/static/js/2.e363b525.chunk.js",
+    "static/js/2.e363b525.chunk.js.map": "/bee-boys-website/static/js/2.e363b525.chunk.js.map",
     "index.html": "/bee-boys-website/index.html",
-    "precache-manifest.d63da4bd4564d58d688a96d636cba515.js": "/bee-boys-website/precache-manifest.d63da4bd4564d58d688a96d636cba515.js",
+    "precache-manifest.b1316a1c957c30e016afd4deeed4488f.js": "/bee-boys-website/precache-manifest.b1316a1c957c30e016afd4deeed4488f.js",
     "service-worker.js": "/bee-boys-website/service-worker.js",
-    "static/css/main.2504a16f.chunk.css.map": "/bee-boys-website/static/css/main.2504a16f.chunk.css.map",
-    "static/js/2.92247145.chunk.js.LICENSE": "/bee-boys-website/static/js/2.92247145.chunk.js.LICENSE"
+    "static/css/main.ad5d45f4.chunk.css.map": "/bee-boys-website/static/css/main.ad5d45f4.chunk.css.map",
+    "static/js/2.e363b525.chunk.js.LICENSE": "/bee-boys-website/static/js/2.e363b525.chunk.js.LICENSE",
+    "static/media/01-12-20.md": "/bee-boys-website/static/media/01-12-20.eaff2681.md",
+    "static/media/01-19-20.md": "/bee-boys-website/static/media/01-19-20.eaff2681.md",
+    "static/media/qav-250.png": "/bee-boys-website/static/media/qav-250.c392ae88.png",
+    "static/media/team-photo.jpg": "/bee-boys-website/static/media/team-photo.a675402e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d3cec463.js",
-    "static/js/2.92247145.chunk.js",
-    "static/css/main.2504a16f.chunk.css",
-    "static/js/main.9055835d.chunk.js"
+    "static/js/2.e363b525.chunk.js",
+    "static/css/main.ad5d45f4.chunk.css",
+    "static/js/main.ef0829dc.chunk.js"
   ]
 }
