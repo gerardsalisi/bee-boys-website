@@ -34,6 +34,9 @@ function Home(props) {
                     <p>
                         Our team aims to provide an alternative solution to animal-mediated pollination with Pollimate. Pollimate is a scalable and autonomous aerial solution that is capable of artificially pollinating crops by leveraging computer vision to localize the drone and accurately pollinate an individual flower.
                         </p>
+                        <a className="progress-button" href="https://github.com/jwang61/Bee-Boys/projects/2">
+                            Follow Our Progress Here ->
+                        </a>
                 </div>
                 <div className="image-container">
                     <img className="image" src={bee} alt="Bee" />
@@ -51,7 +54,7 @@ function Home(props) {
                             
                             <div className="member-container">
                                 <h4>Gerard Salisi</h4>
-                                <p>Mechanical and Software Support</p>
+                                <p>Software Development (Path Planning and Drone Movement)</p>
                             </div>
                             <div className="member-container">
                                 <h4>Brynn Davis</h4>
@@ -59,7 +62,7 @@ function Home(props) {
                             </div>
                             <div className="member-container">
                                 <h4>Justin Wang</h4>
-                                <p>Software Development Lead</p>
+                                <p>Software Development (Computer Vision/ML)</p>
                             </div>
                             <div className="member-container">
                                 <h4>Jordan Hu</h4>
