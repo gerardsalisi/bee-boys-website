@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b44375974fd937189a3deabbb20a4b2a",
+    "revision": "ad7855b34a951a3b316a30da5a0f95bf",
     "url": "/pollimate-website/index.html"
   },
   {
-    "revision": "be0f6664706139cf31d3",
-    "url": "/pollimate-website/static/css/main.89d3a9b2.chunk.css"
+    "revision": "ec8417f4c06e65073a7c",
+    "url": "/pollimate-website/static/css/main.6409e50b.chunk.css"
   },
   {
     "revision": "65bbabbd1cb4be8a9945",
@@ -16,20 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pollimate-website/static/js/2.82bec024.chunk.js.LICENSE"
   },
   {
-    "revision": "be0f6664706139cf31d3",
-    "url": "/pollimate-website/static/js/main.34ecfb03.chunk.js"
+    "revision": "ec8417f4c06e65073a7c",
+    "url": "/pollimate-website/static/js/main.feff59aa.chunk.js"
   },
   {
     "revision": "c62568fe09efff69e4b9",
     "url": "/pollimate-website/static/js/runtime-main.263fb788.js"
   },
   {
-    "revision": "f47245af086ff9e9c753c2dfe6a66db1",
-    "url": "/pollimate-website/static/media/01-12-20.f47245af.md"
+    "revision": "13a7c71b2b601b894e8b1f2125a021b7",
+    "url": "/pollimate-website/static/media/01-12-20.13a7c71b.md"
   },
   {
-    "revision": "eaff26818253f425fd69be1aac8f7a7b",
-    "url": "/pollimate-website/static/media/01-19-20.eaff2681.md"
+    "revision": "cc325eb16418b7d96a58dc74c9ad9cf4",
+    "url": "/pollimate-website/static/media/01-19-20.cc325eb1.md"
+  },
+  {
+    "revision": "a595683f516ddb820762e6a16b495cbf",
+    "url": "/pollimate-website/static/media/01-21-20.a595683f.md"
   },
   {
     "revision": "026202f9c452f0eb7ff5600d64e9be1b",
