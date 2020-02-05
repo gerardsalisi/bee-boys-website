@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pollimate-website/static/css/main.6409e50b.chunk.css",
-    "main.js": "/pollimate-website/static/js/main.feff59aa.chunk.js",
-    "main.js.map": "/pollimate-website/static/js/main.feff59aa.chunk.js.map",
+    "main.js": "/pollimate-website/static/js/main.2cbd46d5.chunk.js",
+    "main.js.map": "/pollimate-website/static/js/main.2cbd46d5.chunk.js.map",
     "runtime-main.js": "/pollimate-website/static/js/runtime-main.263fb788.js",
     "runtime-main.js.map": "/pollimate-website/static/js/runtime-main.263fb788.js.map",
     "static/js/2.82bec024.chunk.js": "/pollimate-website/static/js/2.82bec024.chunk.js",
     "static/js/2.82bec024.chunk.js.map": "/pollimate-website/static/js/2.82bec024.chunk.js.map",
     "index.html": "/pollimate-website/index.html",
-    "precache-manifest.186b28c8b2735ec8820859b4b85f9745.js": "/pollimate-website/precache-manifest.186b28c8b2735ec8820859b4b85f9745.js",
+    "precache-manifest.5e920ac70f1ee5b1ef34b24f8b073b63.js": "/pollimate-website/precache-manifest.5e920ac70f1ee5b1ef34b24f8b073b63.js",
     "service-worker.js": "/pollimate-website/service-worker.js",
     "static/css/main.6409e50b.chunk.css.map": "/pollimate-website/static/css/main.6409e50b.chunk.css.map",
     "static/js/2.82bec024.chunk.js.LICENSE": "/pollimate-website/static/js/2.82bec024.chunk.js.LICENSE",
-    "static/media/01-12-20.md": "/pollimate-website/static/media/01-12-20.13a7c71b.md",
+    "static/media/01-12-20.md": "/pollimate-website/static/media/01-12-20.3ea93fb9.md",
     "static/media/01-19-20.md": "/pollimate-website/static/media/01-19-20.cc325eb1.md",
     "static/media/01-21-20.md": "/pollimate-website/static/media/01-21-20.a595683f.md",
     "static/media/bee.png": "/pollimate-website/static/media/bee.026202f9.png",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.263fb788.js",
     "static/js/2.82bec024.chunk.js",
     "static/css/main.6409e50b.chunk.css",
-    "static/js/main.feff59aa.chunk.js"
+    "static/js/main.2cbd46d5.chunk.js"
   ]
 }
