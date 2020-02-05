@@ -2,18 +2,15 @@
     "blogs": [
       {
         "title": "Back to School",
-        "date": "01/12/20",
-        "source": "01-12-20.md"
+        "date": "01/12/20"
       },
       {
         "title": "Building the Drone",
-        "date": "01/19/20",
-        "source": "01-19-20.md"
+        "date": "01/19/20"
       },
       {
         "title": "Computer Vision Progress",
-        "date": "01/21/20",
-        "source": "01-21-20.md"
+        "date": "01/21/20"
       }
     ]
 }

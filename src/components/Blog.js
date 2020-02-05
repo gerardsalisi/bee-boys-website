@@ -65,7 +65,6 @@ function BlogLanding(props) {
             <Route exact path={path}>
                 <section className="blog-list-container">
                     <div className="inner-container">
-                        {/* <h1 className="header-title">keep up to date with our progress</h1> */}
                         {
                             summary.blogs.map((b, index) => {
                                 return (
@@ -107,7 +106,8 @@ function Blog(props) {
     }, [])
 
     let blog = summary.blogs[index];
-
+    console.log(blog);
+    console.log(posts);
     return (
         <section className="inner-container blog-post">
             <h3 className="blog-date">{blog.date}</h3>
