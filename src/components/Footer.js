@@ -10,7 +10,7 @@ function Footer(props) {
                 <NavLink to="/blog" className="link footer-link" activeClassName="active">Weekly Updates</NavLink>
             </ul>
             <h5>made with React</h5>
-            <h6 className="footer-updated">last updated 01/20/2020</h6>
+            <h6 className="footer-updated">last updated 02/06/2020</h6>
         </footer>
         
     );
