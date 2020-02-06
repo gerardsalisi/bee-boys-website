@@ -50,7 +50,16 @@
 .blog-post > div > p > img{
     height: auto;
     width: auto;
-    max-width: 300px;
+    max-width: 500px;
+    max-height: 300px;
+    display: block;
+    margin: auto;
+}
+
+.blog-post > div > p > a > img{
+    height: auto;
+    width: auto;
+    max-width: 500px;
     max-height: 300px;
     display: block;
     margin: auto;
