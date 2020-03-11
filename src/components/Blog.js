@@ -49,6 +49,14 @@ const bounceTransition = {
     },
 };
 
+function ScrollToTopOnMount() {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+  
+    return null;
+}
+
 
 function BlogLanding(props) {
     let { path, url } = useRouteMatch();
@@ -107,7 +115,9 @@ function Blog(props) {
     let blog = summary.blogs[index];
 
     return (
+        
         <section className="inner-container blog-post">
+            <ScrollToTopOnMount />
             <h3 className="blog-date">{blog.date}</h3>
             <h1 className="blog-title">{`${+index + 1}. ${blog.title}`}</h1>
             {
