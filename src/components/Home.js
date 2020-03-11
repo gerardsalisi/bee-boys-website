@@ -67,7 +67,7 @@ function Home(props) {
                                 <h4>Jordan Hu</h4>
                                 <p>Project Manager/Electrical and Software Support</p>
                             </div>
-                            <small>*from left to right</small>
+                            <small><strong>*from left to right</strong></small>
                         </div>
                     </div>
 

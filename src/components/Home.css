@@ -88,10 +88,12 @@ button {
 .team-members{
     display: flex; 
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    text-align: right;
     width: 50%;
-    padding-left: 1vw;
+    padding: 1vw;
     font-size: 16px;
+    background-color: #E7BC73;
 }
 
 .team-members > small{
@@ -104,9 +106,10 @@ button {
 }
 
 .member-container > h4{
-    font-family: 'Rubik';
+    font-family: 'Karla';
     margin-bottom: 0.5vh;
     font-size: 1.5em;
+    font-weight: 700;
 }
 
 .member-container > p {
@@ -123,6 +126,7 @@ button {
     cursor: pointer;
     margin-top: 1.5em;
     text-decoration: underline;
+    color: #404e44;
 }
 
 @media only screen and (max-width: 766px) {
@@ -132,7 +136,7 @@ button {
     }
     .member-container {
         margin-bottom: 1.2vh;
-        font-size: 14px;
+        font-size: 13px;
     }
     .content-container{
         display: flex; 
@@ -149,5 +153,12 @@ button {
 
     .team-members {
         width: 100%;
+    }
+    .member-container{
+        margin: 0;
+    }
+    .member-container > h4{
+        margin-bottom: 0;
+        font-size: 1.5em;
     }
   }
