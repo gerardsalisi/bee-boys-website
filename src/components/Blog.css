@@ -41,11 +41,25 @@
     padding: 5vh 20vw;
 }
 
+.blog-post >  p{
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
 .blog-post > div >  p{
     margin-bottom: 1em;
     font-size: 1.3em;
     line-height: 1.5em;
 }
+
+.blog-post > div >  ul{
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin-left: 2em;
+}
+
 
 .blog-post > div > p > img{
     height: auto;

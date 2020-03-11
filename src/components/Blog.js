@@ -70,7 +70,7 @@ function BlogLanding(props) {
                                 return (
                                     <div className="blog-entry">
                                         <div className="entry-number">
-                                            {`0${index + 1}.`}
+                                            {`${index + 1}.`}
                                         </div>
                                         <div className="blog-summary" key={index}>
                                             <h2 className="summary-blog-title">{b.title}</h2>
@@ -95,6 +95,8 @@ function BlogLanding(props) {
 function Blog(props) {
     let { index } = useParams();
     const [posts, setPosts] = useState('');
+    let number = '';
+
     useEffect(() => {
         const fetchBlogs = async ()=> {
             const blogs = await Promise.all(markdownFiles.map((file) => fetch(file).then((res) => res.text())))
@@ -106,12 +108,11 @@ function Blog(props) {
     }, [])
 
     let blog = summary.blogs[index];
-    console.log(blog);
-    console.log(posts);
+
     return (
         <section className="inner-container blog-post">
             <h3 className="blog-date">{blog.date}</h3>
-            <h1 className="blog-title">{`0${+index + 1}. ${blog.title}`}</h1>
+            <h1 className="blog-title">{`${+index + 1}. ${blog.title}`}</h1>
             {
                 <Markdown markup={posts[index]}></Markdown>
             }

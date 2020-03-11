@@ -19,6 +19,54 @@
       {
         "title": "First Flight",
         "date": "02/05/20"
+      },
+      {
+        "title": "Pollination Device Assembly",
+        "date": "02/11/20"
+      },
+      {
+        "title": "First Crash",
+        "date": "02/15/20"
+      },
+      {
+        "title": "OSD Interface",
+        "date": "02/20/20"
+      },
+      {
+        "title": "Camera Calibration",
+        "date": "02/25/20"
+      },
+      {
+        "title": "Offboard Control",
+        "date": "02/29/20"
+      },
+      {
+        "title": "Camera Replacement",
+        "date": "03/01/20"
+      },
+      {
+        "title": "Servo Control",
+        "date": "03/02/20"
+      },
+      {
+        "title": "Test Day Issues",
+        "date": "03/03/20"
+      },
+      {
+        "title": "Simulation and AR Drone 2.0",
+        "date": "03/04/20"
+      },
+      {
+        "title": "PID Pollination Loop",
+        "date": "03/05/20"
+      },
+      {
+        "title": "Pollination Actuation Via Control Loop",
+        "date": "03/09/20"
+      },
+      {
+        "title": "Hardware Failures",
+        "date": "03/10/20"
       }
     ]
 }
