@@ -51,7 +51,6 @@ function Home(props) {
                             <img src={teamPhoto} alt="The Team" />
                         </div>
                         <div className="team-members">
-                            
                             <div className="member-container">
                                 <h4>Gerard Salisi</h4>
                                 <p>Software Development (Path Planning and Drone Movement)</p>

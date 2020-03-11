@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     height: 85vh;
+    text-align: center;
 }
 
 button {
@@ -87,7 +88,7 @@ button {
 .team-members{
     display: flex; 
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     width: 50%;
     padding-left: 1vw;
     font-size: 16px;
@@ -103,14 +104,14 @@ button {
 }
 
 .member-container > h4{
+    font-family: 'Rubik';
     margin-bottom: 0.5vh;
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.5em;
 }
 
 .member-container > p {
     margin-bottom: 1.2vh;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 
@@ -127,5 +128,26 @@ button {
 @media only screen and (max-width: 766px) {
     .description-container{
         font-size: 16px;
+        width: 100%;
+    }
+    .member-container {
+        margin-bottom: 1.2vh;
+        font-size: 14px;
+    }
+    .content-container{
+        display: flex; 
+        flex-direction: column;
+    }
+    .image-container{
+        width:0;
+        padding: 0;
+    }
+
+    .team-photo-container{
+        width: 100%;
+    }
+
+    .team-members {
+        width: 100%;
     }
   }
