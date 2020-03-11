@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b01f33e4cd8e174868dcd25360adbcb",
+    "revision": "9dbd0bfd73626b367adf574a6972e0f2",
     "url": "/pollimate-website/index.html"
   },
   {
-    "revision": "f327864c709867cb4a0a",
-    "url": "/pollimate-website/static/css/main.c2664e52.chunk.css"
+    "revision": "a004656192b57ba08841",
+    "url": "/pollimate-website/static/css/main.7c402f1c.chunk.css"
   },
   {
     "revision": "65bbabbd1cb4be8a9945",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pollimate-website/static/js/2.82bec024.chunk.js.LICENSE"
   },
   {
-    "revision": "f327864c709867cb4a0a",
-    "url": "/pollimate-website/static/js/main.c0758a93.chunk.js"
+    "revision": "a004656192b57ba08841",
+    "url": "/pollimate-website/static/js/main.bfe84cf6.chunk.js"
   },
   {
     "revision": "c62568fe09efff69e4b9",
