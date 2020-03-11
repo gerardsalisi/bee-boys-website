@@ -69,11 +69,8 @@ function BlogLanding(props) {
                             summary.blogs.map((b, index) => {
                                 return (
                                     <div className="blog-entry">
-                                        <div className="entry-number">
-                                            {`${index + 1}.`}
-                                        </div>
                                         <div className="blog-summary" key={index}>
-                                            <h2 className="summary-blog-title">{b.title}</h2>
+                                            <h2 className="summary-blog-title">{`${index + 1}. ${b.title}`}</h2>
                                             <h3 className="summary-subheader">{b.date}</h3>
                                             <NavLink to={`${url}/${index}`} className="read-more">read more</NavLink>
                                         </div>
