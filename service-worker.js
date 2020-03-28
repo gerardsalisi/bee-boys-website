@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pollimate-website/precache-manifest.973125a29f91f2ed59c47165df7741a0.js"
+  "/pollimate-website/precache-manifest.d4a5f0bc1755479a61d02ad1834785bc.js"
 );
 
 self.addEventListener('message', (event) => {
